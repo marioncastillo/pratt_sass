@@ -5807,7 +5807,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 * {
-  font-family: "Raleway", sans-serif; }
+  font-family: "Releway", sans-serif; }
 
 .navbar-nav li:hover {
   background-color: #33485c; }
@@ -5821,11 +5821,31 @@ button.close {
     color: #fff;
     text-align: center; }
 
-.secccion_dos {
+.seccion_dos {
   background-color: #f7f7f7;
   padding: 2%;
   color: #989998;
   text-align: center;
   line-height: 30px; }
+
+.seccion_tres {
+  background-color: #f7f7f7;
+  padding: 2%; }
+  .seccion_tres .desktop {
+    width: 100%;
+    padding: 6%; }
+  .seccion_tres h1, .seccion_tres h2, .seccion_tres h4 {
+    text-align: center; }
+  .seccion_tres p {
+    color: #989998;
+    text-align: center;
+    line-height: 30px; }
+
+@media (max-width: 600px) {
+  .seccion_uno {
+    background-color: #33485c;
+    padding-top: 11%; } }
+footer {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

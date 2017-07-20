@@ -18,14 +18,14 @@
 		text-align:$text_center;
 	}
 }
-.secccion_dos{
+.seccion_dos{
 	background-color:$background_dos;
 	padding:$padding_footer;
 	@include excel();
 	
 }
 .seccion_tres{
-	background-color:$background-dos;
+	background-color:$background_dos;
 	padding:$padding_footer;
 	.desktop{
 		width:$width_desktop;
@@ -36,6 +36,7 @@
 	}
 	p{
 		@include excel();
+
 	}
 }
 @media(max-width:600px){
@@ -43,4 +44,7 @@
 		background-color:$background_uno;
 		padding-top:$padding_media;
 	}
+}
+footer{
+	text-align:$text_center;
 }
