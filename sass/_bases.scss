@@ -4,7 +4,7 @@
 
 .navbar-nav{
 	li:hover{
-		background-color:$background-uno;
+		background-color:$background_uno;
 		a:hover{
 			color:$color_text_titulo;
 		}
@@ -29,13 +29,13 @@
 	padding:$padding_footer;
 	.desktop{
 		width:$width_desktop;
-		padding:$paddding;
+		padding:$padding;
 	}
 	h1,h2,h4{
 		text-align:$text_center;
 	}
 	p{
-		@include excel(;)
+		@include excel();
 	}
 }
 @media(max-width:600px){
